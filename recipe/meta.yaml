@@ -1,5 +1,5 @@
 {% set name = "python-troveclient" %}
-{% set version = "7.0.0" %}
+{% set version = "7.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-troveclient-{{ version }}.tar.gz
-  sha256: 2809783023779e23a638a12e6daa82b178d3754b6fbf42eaf7580c948f431e61
+  sha256: b211bbaee61aacbfbce04caf29102a13e4cdd09cc4317d4601b1dd81d45511fc
 
 build:
   number: 0
