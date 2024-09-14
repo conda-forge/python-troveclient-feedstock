@@ -1,5 +1,5 @@
 {% set name = "python-troveclient" %}
-{% set version = "8.5.0" %}
+{% set version = "8.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-troveclient-{{ version }}.tar.gz
-  sha256: 87d7f32df0cad183bf9f172b62d199634ef161fd9c379d61ef15091564297acf
+  sha256: f6820c496fae25b5815881bedfabea4e97e08b205312c8b34531108fd2bcbbe1
 
 build:
   number: 0
@@ -22,6 +22,7 @@ requirements:
     - pbr >=2.0.0
     - pip
     - python >=3.8
+    - setuptools
   run:
     - keystoneauth1 >=3.4.0
     - osc-lib >=1.8.0
