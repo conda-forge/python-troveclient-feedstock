@@ -22,6 +22,7 @@ requirements:
     - pbr >=2.0.0
     - pip
     - python >=3.8
+    - setuptools
   run:
     - keystoneauth1 >=3.4.0
     - osc-lib >=1.8.0
