@@ -1,5 +1,5 @@
 {% set name = "python-troveclient" %}
-{% set version = "8.10.0" %}
+{% set version = "8.11.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: cacce41846bde5f7716a2da4de0a3d25c1c99c33af05c079efd1f44211792ce9
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 4b5e5c82e455ab1472145de00992d1168df7f7409275e54f2249881e01d2a653
 
 build:
   number: 0
